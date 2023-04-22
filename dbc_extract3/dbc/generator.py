@@ -1396,6 +1396,15 @@ class SpellDataGenerator(DataGenerator):
          408090, # Idol of Debilitating Arrogance Druid?
          408042, # Idol of Debilitating Arrogance Rogue?
          408087, # Idol of Debilitating Arrogance Priest
+         408126, # Neltharion's Call to Chaos Mage
+         408122, # Neltharion's Call to Chaos Warrior
+         408127, # Neltharion's Call to Chaos Evoker
+         408128, # Neltharion's Call to Chaos Demon Hunter
+         408123, # Neltharion's Call to Chaos Paladin
+         408256, # Neltharion's Call to Dominance Warlock
+         408259, # Neltharion's Call to Dominance Shaman
+         408260, # Neltharion's Call to Dominance Monk
+         408262, # Neltharion's Call to Dominance Hunter
          408815, 408832, 408835, 408836, # Djaruun
          401303, 401306, 408513, 408533, 408534, 408535, 408536, 408537, 408538, 408539, 408540, 408584, 408578, 410264, 401324, # Elemntium Pocket Anvil
          408821, 403545, # Djaruun, Pillar of the Elder Flame
@@ -1405,6 +1414,10 @@ class SpellDataGenerator(DataGenerator):
          406753, 406764, 406770, # Shadowflame Wreathe
          401513, 405620, 401516, 405613, 402221, 405615, 401521, 405608, 401518, 405612, 401519, 405611, # Glimmering Chromatic orb
          406251, 406254, 406887, # Shadowflame-Tempered Armor Patch
+         407087, # Ever-Decaying Spores
+         400959, # Zaquali Chaos Grapnel
+         402813, 402894, 402896, 402897, 402898, 402903, 407961, # Igneous Tidestone
+         401428, 401422, # Vessel of Searing Shadow
         ),
 
         # Warrior:
@@ -1721,6 +1734,8 @@ class SpellDataGenerator(DataGenerator):
           ( 410790, 0 ), # T30 Wrath of the Frostwyrm FWF triggered from pillar
           ( 196780, 0 ), # Outbreak Intermediate AoE spell
           ( 196782, 0 ), # Outbreak Intermediate AoE spell
+          ( 281327, 0 ), # Obliteration Rune Generation Spell
+          ( 47466, 0 ), # DK Pet Stun
         ),
 
         # Shaman:
@@ -1953,6 +1968,7 @@ class SpellDataGenerator(DataGenerator):
           ( 383701, 1 ), # Gai Plin's Imperial Brew Heal
           ( 383733, 1 ), # Training of Niuzao Mastery % Buff
           ( 386959, 1 ), # Charred Passions Damage
+          ( 395267, 1 ), # Call to Arms Invoke Niuzao
 
           # Mistweaver
           ( 228649, 2 ), # Teachings of the Monastery - Blackout Proc
